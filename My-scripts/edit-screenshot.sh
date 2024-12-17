@@ -7,12 +7,16 @@
 
 
 TEMP_FILE="/tmp/screenshot.png"
-
-grim -g "$(slurp)" "$TEMP_FILE"
+TIMESTAMP=$(date +%Y%m%d%H%M%S)
+SAVE_DIR="/home/xvnvdu/Pictures/Screenshots"
+SAVE_PHOTO=${SAVE_DIR}/screenshot_${TIMESTAMP}.png
 
 if [ "$1" == "edit" ]; then
+	grim "$TEMP_FILE"
 	swappy -f "$TEMP_FILE"
+	mv "$TEMP_FILE" "$SAVE_PHOTO"
 else
+	grim -g "$(slurp)" "$TEMP_FILE"
 	cat "$TEMP_FILE" | wl-copy
 fi
 
