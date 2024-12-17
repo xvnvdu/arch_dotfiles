@@ -1,0 +1,106 @@
+/*
+__        __          _                  ____  _         _           
+\ \      / /_ _ _   _| |__   __ _ _ __  / ___|| |_ _   _| | ___ 
+ \ \ /\ / / _` | | | | '_ \ / _` | '__| \___ \| __| | | | |/ _ \
+  \ V  V / (_| | |_| | |_) | (_| | |     ___) | |_| |_| | |  __/
+   \_/\_/ \__,_|\__, |_.__/ \__,_|_|    |____/ \__|\__, |_|\___|
+                |___/                              |___/   
+*/
+
+* {
+    border:        none;
+    border-radius: 20px;
+    font-family:   Liberation Mono;
+    font-size:     12px;
+    min-height:    0;
+}
+
+window#waybar {
+    background:    transparent;
+}
+
+#custom-launcher {
+    font-size:     26px;
+    padding:       0 8px;
+    padding-right: 14px;
+    color:         #5c6bf5;
+    background:    #1f1f1f;
+}
+
+#language {
+    font-size:     19px;
+    padding:       0 8px;
+    background:    #1f1f1f;
+}
+
+#workspaces {
+    padding:       8px 5px;
+    background:    #1f1f1f;
+}
+
+#workspaces button {
+    padding:       0 1px;
+    margin:        0 3px;
+    color:         #f4b5d2;
+    background:    #3a4465;
+    transition:    all 0.3s ease-in-out;
+    }
+
+#workspaces button.active {
+    color:         #f4b5d2;
+    background:    #f4b5d2;
+    min-width:     40px;
+    transition:    all 0.3s ease-in-out;
+}
+
+#workspaces button:hover {
+    background:    #ffffff;
+    color:         #f4b5d2;
+    min-width:     40px;
+}
+
+#tray {
+    padding:       0 10px;
+    background:    #1f1f1f;
+}
+
+#clock {
+    font-size:     15px;
+    padding:       0px 10px;
+    background:    #1f1f1f;
+    color:         #ffffff;
+}
+
+#group-modules_right {
+    font-size:     15px;
+    border-radius: 0px;
+    padding:       0 15px; 
+    margin-left:   -16px;
+    background:    #1f1f1f;
+    color:         #ffffff;
+}
+
+#network {
+    font-size:     22px;
+    border-radius: 20px 0px 0px 20px;
+    padding:       0 15px;
+    background:    #1f1f1f;
+    color:         #ffffff;
+}
+
+#pulseaudio, #memory, #backlight {
+    font-size:     15px;
+    border-radius: 0px;
+    padding:       0 10px; 
+    background:    #1f1f1f;
+    color:         #ffffff;
+}
+
+#battery {
+    font-size:     15px;
+    padding:       0 20 0 5px;
+    border-radius: 0px 20px 20px 0px;
+    background:    #1f1f1f;
+    color:         #ffffff;
+}
+
