@@ -1,0 +1,89 @@
+/*
+ _   _                         ____             __ _       
+| \ | | ___ _ __ ___   ___    / ___|___  _ __  / _(_) __ _ 
+|  \| |/ _ \ '_ ` _ \ / _ \  | |   / _ \| '_ \| |_| |/ _` |
+| |\  |  __/ | | | | | (_) | | |__| (_) | | | |  _| | (_| |
+|_| \_|\___|_| |_| |_|\___/   \____\___/|_| |_|_| |_|\__, |
+                                                     |___/  
+													 
+	This gtk.css file should be added in ~/.config/gtk-3.0/
+*/
+
+.nemo-window .view {
+	background:	   #ffb9d6;
+	color: 		   #000000;
+}
+  
+.nemo-window .nemo-inactive-pane .view {
+	background:    #303030;
+	color: 	       #CBCBCB; 
+}
+	
+.nemo-window .view:selected:focus,
+.nemo-window .view:selected,
+.nemo-window .nemo-inactive-pane .view:selected:focus,
+.nemo-window .nemo-inactive-pane .view:selected {
+	background:    #f06292; 
+}
+
+.nemo-window .primary-toolbar {
+	background:    #f06292; 
+	color:         #ffffff;
+}
+
+.nemo-window .primary-toolbar .flat {
+	background:    #f06292; 
+	color:         #ffffff;
+	border-radius: 20px;
+}
+
+.nemo-window grid>widget {
+	background:    #f06292;
+	color:         #ffffff;
+   }
+
+.nemo-window grid>widget>box button {
+	background:    #ffffff;
+	color:         #000000;
+	border-radius: 20px;
+   }
+
+.nemo-window grid>menubar {
+	background:    #f06292;
+	color:         #ffffff;
+   }
+
+.nemo-window grid>paned>box>paned>box>notebook>stack>box>box>box>infobar>revealer>box {
+	background:    #f06292;
+	color:         #ffffff;
+   }
+
+.nemo-window grid>separator {
+	background:    #f06292;
+   }
+
+.nemo-window grid>paned>separator {
+	background:    #ffffff;
+   }
+
+.nemo-window grid>widget>box>separator {
+	background:    #ffffff;
+   }
+
+.nemo-window grid>paned>box>separator {
+	background:    #ffffff;
+   }
+
+.nemo-window grid>paned>box>paned>box>notebook>stack>box>box>infobar>revealer>box {
+	background:    #ffffff;
+	color:         #000000;
+   }
+
+.nemo-window grid>paned>box>paned>box>notebook>stack>box>box>infobar>revealer>box>buttonbox button {
+	background:    #f06292;
+	border-radius: 20px;
+   }
+
+.nemo-window grid>paned>box>paned>box>notebook>stack>box>box>infobar>revealer>box>buttonbox button label {
+	color:         #ffffff;
+   }
