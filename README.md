@@ -5,6 +5,7 @@
 ![screenshot_1](screenshots/1.png)
 ![screenshot_2](screenshots/2.png)
 ![screenshot_3](screenshots/3.png)
+![screenshot_4](screenshots/4.png)
 
 
 ## <span style="color: #eb497f">Required Packages</span>
@@ -13,7 +14,7 @@
 - <span style="color: #ffb9d6">**Neofetch**</span>
 - <span style="color: #ffb9d6">**Spicetify**</span>
 - <span style="color: #ffb9d6">**Waybar**</span>
-- <span style="color: #ffb9d6">**Thunar**</span> ​ ​  ​ ​ ​ ​  ​ ​​`not customized yet`
+- <span style="color: #ffb9d6">**Nemo**</span>
 - <span style="color: #ffb9d6">**Wofi**</span> ​ ​  ​ ​  ​ ​  ​ ​ ​ ​  ​  ​ ​`not customized yet`
 - <span style="color: #ffb9d6">**Kitty**</span>
 - <span style="color: #ffb9d6">**Cava**</span>
