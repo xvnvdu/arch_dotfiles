@@ -6,11 +6,12 @@
 ![screenshot_2](screenshots/2.png)
 ![screenshot_3](screenshots/3.png)
 ![screenshot_4](screenshots/4.png)
+![screenshot_5](screenshots/5.png)
 
 
 ## <span style="color: #eb497f">Required Packages</span>
 
-- <span style="color: #ffb9d6">**Hyprland**</span>
+- <span style="color: #ffb9d6">**Hyprland, Hyprlock**</span>
 - <span style="color: #ffb9d6">**Neofetch**</span>
 - <span style="color: #ffb9d6">**Spicetify**</span>
 - <span style="color: #ffb9d6">**Waybar**</span>
@@ -40,7 +41,7 @@
 
 ## <span style="color: #eb497f">Quick Note</span>
 
-This is my simple minimalistic Hyprland config. Many features are still yet to be realized. Definitely gonna try using and customizing few more programs like Wlogout and Hyprlock, also thinking of switching Swaybg over Hyprpaper. Also wanna add more color/theme variations, using something pywall-like. 
+This is my simple minimalistic Hyprland config. Many features are still yet to be realized. Definitely gonna try using and customizing few more programs like Wlogout, also thinking of switching Swaybg over Hyprpaper. Also wanna add more color/theme variations, using something pywall-like. 
 
 Speaking of wireless network connection or bluetooth, there is no UI-based solution yet, so this should be done manualy via terminal:</mark>
 
